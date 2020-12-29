@@ -92,3 +92,32 @@ body {
     height: 35%;
     background-color: black;
 }
+
+@media only screen and (max-width: 500px) {
+    .clock {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        border: 2px solid rgb(252, 0, 0);
+        position: relative;
+    }
+    .clock .hand.hour {
+        width: 5px;
+        height: 25%;
+        background-color: black;
+    }
+    .clock .hand.second {
+        width: 1px;
+        height: 30%;
+        background-color: red;
+    }
+    
+    .clock .hand.minute {
+        width: 4px;
+        height: 29%;
+        background-color: black;
+    }
+    
+}
